@@ -94,6 +94,9 @@
     }
 }
 @media (max-width:450px){
+    .spin{
+        top:75%;
+    }
     .leftb{
         width:20px;
         height:20px;
