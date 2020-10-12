@@ -1,0 +1,67 @@
+.title{
+    font-family:sans !important;
+    font-size:35px !important;
+    margin: 7px 0;
+    color: rgb(90,88,88)
+}
+.fea{
+    font-family:verdana !important;
+    font-size:30px !important;
+    margin: 5px 0;
+    color: rgb(90,88,88)
+}
+.thebody{
+    width:96%;
+    /*height: 150vh;*/
+    /*background: blue;*/
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.note{
+    width:70%;
+}
+
+.name{
+    margin: 10px 0;
+    font-size: 50px;
+    font-family:verdana;
+    font-weight: 500;
+}
+.note p{
+    font-size:14px;
+}
+.date{
+    font-size: 15px;
+    color:gray;
+}
+.navsh .fir{
+    margin-left:37px;
+}
+.timage{
+    width:100%;
+    height:65vh;
+    margin:10px;
+    /*margin-top: 0;*/
+    background: url('newone.jpg');
+    background-size: 100% 100%;
+/*    background-color:aqua;*/
+    /*border-radius: 10px;*/
+}
+
+
+@media (max-width:500px){
+    .note{width:85%;}
+    .date{
+        font-size:14px;
+    }
+    .timage{
+        width:100%;
+        height:32vh;
+        border-radius: 0;
+    }
+    .navsh .fir{
+        margin-left:16px;
+    }
+}

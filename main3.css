@@ -1,0 +1,10 @@
+.aboutbody{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width:75%;
+    margin-top:15px;
+    height: 83vh;
+    background: rgb(250,250,250);
+    border-radius:10px;
+}
