@@ -20,17 +20,17 @@ new Vue({
     },
     methods:{
         right:function(){
-            if (this.index<28){
+            if (this.index<27){
                 this.index++;
             }
-            else if(this.index === 28){
+            else if(this.index === 27){
                 this.index=0;}
             
             this.imag=`url("images/image${this.index}.jpg")`;
         },
         left:function(){
             if (this.index===0){
-                this.index=28;
+                this.index=27;
             }
             else if(this.index>0){
                 this.index--;
